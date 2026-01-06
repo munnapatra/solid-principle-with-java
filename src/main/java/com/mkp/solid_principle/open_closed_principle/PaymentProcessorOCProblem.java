@@ -1,4 +1,4 @@
-package com.mkp.solid_principle.ocp.problem;
+package com.mkp.solid_principle.open_closed_principle;
 
 //Open/Closed Principle (OCP):  Entity should be open for extension, but closed for modification.
 
@@ -6,7 +6,7 @@ package com.mkp.solid_principle.ocp.problem;
 // initially it was implemented with CreditCard payment 
 // later requirement come to implement the PayPal payment
 // By modifying this processPayment method implementation has been done which breaks the OCP rule
-public class PaymentProcessor {
+public class PaymentProcessorOCProblem {
 
 	public void processPayment(String paymentType) {
 		if (paymentType.equals("CreditCard")) {

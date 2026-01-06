@@ -1,16 +1,16 @@
-package com.mkp.solid_principle.isp.problem;
+package com.mkp.solid_principle.interface_segregation_principle;
 
 // Interface Segregation Principle (ISP):
 //Clients should not be forced to depend on interface members they do not use.
 
 //Robot don't eat but here Robot class is forcefully implementing eat method.
-interface Worker {
+interface WorkerISProblem {
 	void work();
 
 	void eat();
 }
 
-class Human implements Worker {
+class HumanIS implements WorkerISProblem {
 	public void work() {
 		System.out.println("Human is working.");
 	}
@@ -20,7 +20,7 @@ class Human implements Worker {
 	}
 }
 
-class Robot implements Worker {
+class RobotIS implements WorkerISProblem {
 	public void work() {
 		System.out.println("Robot is working.");
 	}

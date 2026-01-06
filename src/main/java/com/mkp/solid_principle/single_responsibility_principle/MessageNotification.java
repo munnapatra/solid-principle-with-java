@@ -1,4 +1,4 @@
-package com.mkp.solid_principle.srp.solution;
+package com.mkp.solid_principle.single_responsibility_principle;
 
 public class MessageNotification implements INotfication {
 	@Override

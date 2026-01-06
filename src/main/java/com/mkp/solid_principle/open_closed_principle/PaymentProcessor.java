@@ -1,4 +1,4 @@
-package com.mkp.solid_principle.ocp.solution;
+package com.mkp.solid_principle.open_closed_principle;
 
 // If we have to implement UPI payment process than we no need modify this class 
 // we have to just create child class of PaymentStrategy as UPIPyament

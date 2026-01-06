@@ -5,8 +5,8 @@ Single Responsibility Principle (SRP):
 [`Definition: A class should have only one reason to change.`]
 --
 `Example:` 
-	A BankService class that handles both deposit, withdraw, and printPassbook violates SRP.
-	To fix this, move the printPassbook logic to a new PrinterService class,
+	A BankService class that handles both deposit, withdraw, and sendNotification violates SRP.
+	To fix this, move the sendNotification logic to a new NotificationService class,
 	so BankService is only responsible for financial transactions.
 
 Open/Closed Principle (OCP): 

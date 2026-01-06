@@ -1,4 +1,4 @@
-package com.mkp.solid_principle.isp.solution;
+package com.mkp.solid_principle.interface_segregation_principle;
 
 interface Worker {
 	void work();
